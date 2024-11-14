@@ -1,0 +1,16 @@
+<model-viewer src="scene.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-2" data-position="0.007195268458712257m 1.9800840107852993m 0.4368720194616036m" data-normal="0.2794835549611895m -0.268970615399498m 0.9217069765157858m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">媽祖帽</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-0.05071468746721615m 0.9615950651481736m -0.6146519173932348m" data-normal="-0.022843204018360236m -0.0296150254345426m -0.9993003243763545m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">媽祖龍椅</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
